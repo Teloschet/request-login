@@ -1,0 +1,33 @@
+div.error {
+    padding:10px;
+    background:#D53816!important;
+    color:#fff;
+    position:absolute;
+    border-radius:5px;
+    top:10px;
+    right:10px;
+    cursor: not-allowed;
+    animation: fadeIn 3s ease-in;
+}
+
+div.success {
+    padding:10px;
+    background:#16D524!important;
+    color:#fff;
+    position:absolute;
+    border-radius:5px;
+    top:10px;
+    right:10px;
+    cursor: not-allowed;
+    animation: fadeIn 3s ease-in;
+}
+
+@keyframes fadeIn {
+    0% {
+        opacity: 0%;
+    }
+
+    50% {
+        opacity: 100%;
+    }
+}
