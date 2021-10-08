@@ -2,9 +2,9 @@
 
 // connection
 $host = "localhost";
-$db = "exercito";
-$username = "root";
-$password = "";
+$db = "database";
+$username = "username";
+$password = "password";
 
 try {
     $dbh = new PDO('mysql:host=' . $host . ';dbname=' . $db . '', $username, $password);
